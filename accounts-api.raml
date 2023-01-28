@@ -57,7 +57,8 @@ types:
     body:
       application/json:
         type: Account[]
-        example: !include examples/accountExampleNew.raml
+        examples:
+          input: !include examples/accountExampleNew.raml
     responses:
       201:
         body:
